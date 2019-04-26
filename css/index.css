@@ -399,6 +399,49 @@ header nav a {
   padding-bottom: 2px;
 }
 
+@keyframes button-animation {
+  0% {
+    transform: skewX(10deg);
+  }
+  10% {
+    transform: skewX(-9deg);
+  }
+  20% {
+    transform: skewX(7deg);
+  }
+  30% {
+    transform: skewX(-6deg);
+  }
+  40% {
+    transform: skewX(5deg);
+  }
+  50% {
+    transform: skewX(-4deg);
+  }
+  60% {
+    transform: skewX(3deg);
+  }
+  70% {
+    transform: skewX(-2deg);
+  }
+  80% {
+    transform: skewX(1deg);
+  }
+  90% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
+
+.cards > button:hover {
+  position: relative;
+  background-color: white;
+  animation-name: button-animation;
+  animation-duration: 1.5s;
+}
+
 .bottom-about {
   padding-right: 4%;
   padding-left: 3%;
