@@ -346,6 +346,36 @@ header nav a {
   justify-content: space-around;
 }
 
+.top-content-about {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.about-main-content {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* height: 900px; */
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  width: 380px;
+  /* margin: 1px; */
+}
+
+.cards > img {
+  object-fit: cover;
+  width: 100%;
+  /* display: none; */
+}
+
 .bottom-content .text-container {
   padding-right: 4%;
 }
