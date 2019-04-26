@@ -355,7 +355,7 @@ header nav a {
 .about-main-content {
   display: flex;
   justify-content: space-around;
-  align-content: space-around;
+  align-content: space-between;
   /* flex-direction: column; */
   flex-wrap: wrap;
   /* height: 900px; */
@@ -365,9 +365,14 @@ header nav a {
 .cards {
   display: flex;
   flex-direction: column;
-  height: 430px;
-  width: 380px;
+  height: 450px;
+  width: 370px;
   /* margin: 1px; */
+  border-bottom: 1px dashed black;
+  padding-top: 25px;
+  /* margin-bottom: 25px; */
+  padding-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .cards > img {
@@ -376,8 +381,32 @@ header nav a {
   /* display: none; */
 }
 
+.cards > p {
+  padding-bottom: 15px;
+}
+
+.cards > h2 {
+  padding-top: 15px;
+}
+
+.cards > button {
+  border-radius: 10px;
+  height: 38px;
+  width: 130px;
+  border: 2px solid black;
+  font-size: 15px;
+  padding-bottom: 2px;
+}
+
+.bottom-about {
+  padding-right: 4%;
+  padding-left: 3%;
+  padding-bottom: 35px;
+  padding-top: 15px;
+}
 .bottom-content .text-container {
   padding-right: 4%;
+  /* width: 100%; */
 }
 
 .bottom-content .text-container:last-child {
