@@ -394,6 +394,7 @@ header nav a {
   height: 38px;
   width: 130px;
   border: 2px solid black;
+  background: white;
   font-size: 15px;
   padding-bottom: 2px;
 }
